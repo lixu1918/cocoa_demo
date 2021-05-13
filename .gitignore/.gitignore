@@ -1,5 +1,7 @@
 .DS_Store
-**.DS_Store
+cocoactrls/.DS_Store
+cocoactrls/cocoactrls.xcodeproj/xcuserdata/
+cocoademo.xcworkspace/xcuserdata/apple.xcuserdatad/UserInterfaceState.xcuserstate
 
 # Xcode
 #
@@ -7,8 +9,6 @@
 
 ## User settings
 xcuserdata
-**/xcuserdata/
-UserInterfaceState.xcuserstate
 
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
