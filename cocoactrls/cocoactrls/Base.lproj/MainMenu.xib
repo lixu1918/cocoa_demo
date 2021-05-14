@@ -758,16 +758,56 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="pN8-7o-4uf">
+                                        <rect key="frame" x="20" y="168" width="195" height="40"/>
+                                        <subviews>
+                                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-21-e0Q">
+                                                <rect key="frame" x="70" y="11" width="36" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <buttonCell key="cell" type="check" title="c1" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="dGK-Cy-i0Y">
+                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                            </button>
+                                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zcp-2d-zut">
+                                                <rect key="frame" x="0.0" y="10" width="64" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                                <buttonCell key="cell" type="recessed" title="全部选择" bezelStyle="recessed" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="09d-ge-oBR">
+                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                                    <font key="font" size="12" name=".PingFangSC-Medium"/>
+                                                </buttonCell>
+                                            </button>
+                                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TT1-CI-Rkw">
+                                                <rect key="frame" x="136" y="11" width="37" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                <buttonCell key="cell" type="check" title="c2" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="tzs-af-s0K">
+                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="yBB-1E-kGC"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                <color key="value" name="systemBrownColor" catalog="System" colorSpace="catalog"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </customView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ViK-eV-nqj" secondAttribute="trailing" constant="20" id="6Yb-i6-Eho"/>
                                     <constraint firstItem="ViK-eV-nqj" firstAttribute="leading" secondItem="8gH-qR-3Kj" secondAttribute="leading" constant="20" id="Ao7-a6-LwM"/>
                                     <constraint firstItem="4z6-gi-rTF" firstAttribute="top" secondItem="8gH-qR-3Kj" secondAttribute="top" id="CzH-pk-0UQ"/>
                                     <constraint firstAttribute="trailing" secondItem="4z6-gi-rTF" secondAttribute="trailing" id="Hfi-S9-X1H"/>
+                                    <constraint firstItem="pN8-7o-4uf" firstAttribute="leading" secondItem="8gH-qR-3Kj" secondAttribute="leading" constant="20" id="PUQ-VJ-1s6"/>
                                     <constraint firstItem="4z6-gi-rTF" firstAttribute="leading" secondItem="8gH-qR-3Kj" secondAttribute="leading" id="RHK-mI-Qi9"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="ZCu-pB-gWw"/>
+                                    <constraint firstAttribute="trailing" secondItem="pN8-7o-4uf" secondAttribute="trailing" constant="20" id="ahD-dJ-hma"/>
                                     <constraint firstItem="ViK-eV-nqj" firstAttribute="top" secondItem="4z6-gi-rTF" secondAttribute="bottom" constant="8" id="iWJ-CX-dcd"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="360" id="pO9-ie-Upx"/>
+                                    <constraint firstItem="pN8-7o-4uf" firstAttribute="top" secondItem="ViK-eV-nqj" secondAttribute="bottom" constant="8" id="r89-Zh-s3x"/>
                                 </constraints>
                             </customView>
                             <customView id="AWi-Mn-AVB">
