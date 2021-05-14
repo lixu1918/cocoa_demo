@@ -720,12 +720,53 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="ViK-eV-nqj">
+                                        <rect key="frame" x="20" y="216" width="195" height="40"/>
+                                        <subviews>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XrU-67-qpp">
+                                                <rect key="frame" x="-2" y="12" width="71" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="67" id="TAf-uJ-F9c"/>
+                                                </constraints>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="录入内容：" id="YRT-yz-3JP">
+                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jgq-Zv-VAn">
+                                                <rect key="frame" x="99" y="9" width="96" height="21"/>
+                                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="Fmf-19-mEi">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="XrU-67-qpp" secondAttribute="bottom" constant="12" id="1AK-xY-1cQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="jgq-Zv-VAn" secondAttribute="trailing" id="5ov-44-fJ1"/>
+                                            <constraint firstItem="XrU-67-qpp" firstAttribute="top" secondItem="ViK-eV-nqj" secondAttribute="top" constant="12" id="8Sc-hD-ksC"/>
+                                            <constraint firstItem="jgq-Zv-VAn" firstAttribute="top" secondItem="ViK-eV-nqj" secondAttribute="top" constant="10" id="Glv-wZ-bUn"/>
+                                            <constraint firstItem="XrU-67-qpp" firstAttribute="leading" secondItem="ViK-eV-nqj" secondAttribute="leading" id="WUn-4i-uwl"/>
+                                            <constraint firstItem="jgq-Zv-VAn" firstAttribute="leading" secondItem="XrU-67-qpp" secondAttribute="trailing" constant="32" id="gd0-IA-HWm"/>
+                                            <constraint firstAttribute="bottom" secondItem="jgq-Zv-VAn" secondAttribute="bottom" constant="9" id="nVB-EO-NVO"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                <color key="value" name="systemBrownColor" catalog="System" colorSpace="catalog"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </customView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ViK-eV-nqj" secondAttribute="trailing" constant="20" id="6Yb-i6-Eho"/>
+                                    <constraint firstItem="ViK-eV-nqj" firstAttribute="leading" secondItem="8gH-qR-3Kj" secondAttribute="leading" constant="20" id="Ao7-a6-LwM"/>
                                     <constraint firstItem="4z6-gi-rTF" firstAttribute="top" secondItem="8gH-qR-3Kj" secondAttribute="top" id="CzH-pk-0UQ"/>
                                     <constraint firstAttribute="trailing" secondItem="4z6-gi-rTF" secondAttribute="trailing" id="Hfi-S9-X1H"/>
                                     <constraint firstItem="4z6-gi-rTF" firstAttribute="leading" secondItem="8gH-qR-3Kj" secondAttribute="leading" id="RHK-mI-Qi9"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="ZCu-pB-gWw"/>
+                                    <constraint firstItem="ViK-eV-nqj" firstAttribute="top" secondItem="4z6-gi-rTF" secondAttribute="bottom" constant="8" id="iWJ-CX-dcd"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="360" id="pO9-ie-Upx"/>
                                 </constraints>
                             </customView>
