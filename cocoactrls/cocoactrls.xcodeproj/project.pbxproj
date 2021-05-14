@@ -11,6 +11,7 @@
 		1810473D264D1D58001754CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1810473C264D1D58001754CA /* Assets.xcassets */; };
 		18104740264D1D58001754CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1810473E264D1D58001754CA /* MainMenu.xib */; };
 		18104743264D1D58001754CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104742264D1D58001754CA /* main.m */; };
+		185A72FC264E477C00BF37EE /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A72FB264E477C00BF37EE /* LeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		18104741264D1D58001754CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18104742264D1D58001754CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18104744264D1D58001754CA /* cocoactrls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cocoactrls.entitlements; sourceTree = "<group>"; };
+		185A72FA264E477C00BF37EE /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		185A72FB264E477C00BF37EE /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				18104741264D1D58001754CA /* Info.plist */,
 				18104742264D1D58001754CA /* main.m */,
 				18104744264D1D58001754CA /* cocoactrls.entitlements */,
+				185A72FA264E477C00BF37EE /* LeftViewController.h */,
+				185A72FB264E477C00BF37EE /* LeftViewController.m */,
 			);
 			path = cocoactrls;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18104743264D1D58001754CA /* main.m in Sources */,
+				185A72FC264E477C00BF37EE /* LeftViewController.m in Sources */,
 				1810473B264D1D56001754CA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -824,6 +824,9 @@
                                                         <string>Item</string>
                                                     </objectValues>
                                                 </comboBoxCell>
+                                                <connections>
+                                                    <action selector="onComboBox:" target="N7u-dr-gFL" id="5kV-zJ-Gp5"/>
+                                                </connections>
                                             </comboBox>
                                         </subviews>
                                         <constraints>
@@ -977,5 +980,11 @@
             </view>
             <point key="canvasLocation" x="139" y="-120"/>
         </window>
+        <viewController id="N7u-dr-gFL" customClass="LeftViewController">
+            <connections>
+                <outlet property="labelComboText" destination="Xwk-bd-43D" id="g2z-E3-VvG"/>
+                <outlet property="view" destination="8gH-qR-3Kj" id="qXT-XV-X0W"/>
+            </connections>
+        </viewController>
     </objects>
 </document>
