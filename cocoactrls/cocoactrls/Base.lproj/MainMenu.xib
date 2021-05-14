@@ -795,6 +795,50 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="oZx-w0-029">
+                                        <rect key="frame" x="20" y="120" width="195" height="40"/>
+                                        <subviews>
+                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xwk-bd-43D">
+                                                <rect key="frame" x="-2" y="12" width="61" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="57" id="M9o-ZK-509"/>
+                                                </constraints>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="选择内容" id="AsR-9p-5cp">
+                                                    <font key="font" usesAppearanceFont="YES"/>
+                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <comboBox verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e2C-3x-M4F">
+                                                <rect key="frame" x="97" y="6" width="99" height="25"/>
+                                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="0wL-a3-OQc">
+                                                    <font key="font" metaFont="titleBar"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    <objectValues>
+                                                        <string>I have to do</string>
+                                                        <string>edit</string>
+                                                        <string>nib</string>
+                                                        <string>file</string>
+                                                        <string>Item</string>
+                                                        <string>Item</string>
+                                                    </objectValues>
+                                                </comboBoxCell>
+                                            </comboBox>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="e2C-3x-M4F" secondAttribute="trailing" constant="2" id="91T-kL-u3T"/>
+                                            <constraint firstItem="Xwk-bd-43D" firstAttribute="leading" secondItem="oZx-w0-029" secondAttribute="leading" id="Dw3-Wl-Hah"/>
+                                            <constraint firstAttribute="height" constant="40" id="M4J-wv-U35"/>
+                                            <constraint firstItem="e2C-3x-M4F" firstAttribute="leading" secondItem="Xwk-bd-43D" secondAttribute="trailing" constant="40" id="nVu-aO-CnI"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="wLu-ew-GZj"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                <color key="value" name="systemBrownColor" catalog="System" colorSpace="catalog"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </customView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ViK-eV-nqj" secondAttribute="trailing" constant="20" id="6Yb-i6-Eho"/>
@@ -803,11 +847,14 @@
                                     <constraint firstAttribute="trailing" secondItem="4z6-gi-rTF" secondAttribute="trailing" id="Hfi-S9-X1H"/>
                                     <constraint firstItem="pN8-7o-4uf" firstAttribute="leading" secondItem="8gH-qR-3Kj" secondAttribute="leading" constant="20" id="PUQ-VJ-1s6"/>
                                     <constraint firstItem="4z6-gi-rTF" firstAttribute="leading" secondItem="8gH-qR-3Kj" secondAttribute="leading" id="RHK-mI-Qi9"/>
+                                    <constraint firstItem="oZx-w0-029" firstAttribute="top" secondItem="pN8-7o-4uf" secondAttribute="bottom" constant="8" id="VGY-hx-bcG"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="ZCu-pB-gWw"/>
                                     <constraint firstAttribute="trailing" secondItem="pN8-7o-4uf" secondAttribute="trailing" constant="20" id="ahD-dJ-hma"/>
                                     <constraint firstItem="ViK-eV-nqj" firstAttribute="top" secondItem="4z6-gi-rTF" secondAttribute="bottom" constant="8" id="iWJ-CX-dcd"/>
+                                    <constraint firstAttribute="trailing" secondItem="oZx-w0-029" secondAttribute="trailing" constant="20" id="kGF-zf-nY2"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="360" id="pO9-ie-Upx"/>
                                     <constraint firstItem="pN8-7o-4uf" firstAttribute="top" secondItem="ViK-eV-nqj" secondAttribute="bottom" constant="8" id="r89-Zh-s3x"/>
+                                    <constraint firstItem="oZx-w0-029" firstAttribute="leading" secondItem="8gH-qR-3Kj" secondAttribute="leading" constant="20" id="ux3-GP-x8v"/>
                                 </constraints>
                             </customView>
                             <customView id="AWi-Mn-AVB">
