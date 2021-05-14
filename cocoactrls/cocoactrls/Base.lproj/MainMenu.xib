@@ -851,6 +851,9 @@
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>
+                                                <connections>
+                                                    <action selector="onRadioBox:" target="N7u-dr-gFL" id="bvj-Pa-uIG"/>
+                                                </connections>
                                             </button>
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Rk-3a-FgZ">
                                                 <rect key="frame" x="-2" y="12" width="58" height="16"/>
@@ -868,6 +871,9 @@
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>
+                                                <connections>
+                                                    <action selector="onRadioBox:" target="N7u-dr-gFL" id="bpo-Gn-r8n"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -903,6 +909,9 @@
                                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
+                                                <connections>
+                                                    <binding destination="N7u-dr-gFL" name="value" keyPath="stepperIntValue" id="nMv-RI-NhM"/>
+                                                </connections>
                                             </textField>
                                             <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kf0-Zq-3OF">
                                                 <rect key="frame" x="171" y="7" width="19" height="27"/>
@@ -910,6 +919,10 @@
                                                     <constraint firstAttribute="width" constant="13" id="mCf-hX-J2E"/>
                                                 </constraints>
                                                 <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="Uwf-da-PQS"/>
+                                                <connections>
+                                                    <action selector="onStepperAction:" target="N7u-dr-gFL" id="uCE-Ot-12O"/>
+                                                    <binding destination="N7u-dr-gFL" name="value" keyPath="stepperIntValue" id="S5B-Ni-YiH"/>
+                                                </connections>
                                             </stepper>
                                         </subviews>
                                         <constraints>
@@ -983,8 +996,13 @@
         <viewController id="N7u-dr-gFL" customClass="LeftViewController">
             <connections>
                 <outlet property="labelComboText" destination="Xwk-bd-43D" id="g2z-E3-VvG"/>
+                <outlet property="labelRadioText" destination="0Rk-3a-FgZ" id="AL0-P2-aXJ"/>
+                <outlet property="labelStepperText" destination="uhh-lx-AjJ" id="ASn-TP-W92"/>
+                <outlet property="radioBox1" destination="pdN-R7-OOc" id="rBD-KL-EGC"/>
+                <outlet property="radioBox2" destination="VJw-Lg-ckG" id="j1K-O7-KxM"/>
                 <outlet property="view" destination="8gH-qR-3Kj" id="qXT-XV-X0W"/>
             </connections>
         </viewController>
+        <userDefaultsController representsSharedInstance="YES" id="lSl-gI-HWI"/>
     </objects>
 </document>
