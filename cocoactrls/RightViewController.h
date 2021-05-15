@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RightViewController : NSViewController
 
+@property NSString* viewString;
+
 @property (weak) IBOutlet NSTextView* textView;
 
 - (IBAction)onButtonDocumentPath:(id)sender;

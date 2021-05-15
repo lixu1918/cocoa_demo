@@ -1082,6 +1082,9 @@
                                                                     <size key="minSize" width="235" height="230"/>
                                                                     <size key="maxSize" width="240" height="10000000"/>
                                                                     <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <connections>
+                                                                        <binding destination="ojY-2f-Oc1" name="value" keyPath="viewString" id="Ost-mG-Jhk"/>
+                                                                    </connections>
                                                                 </textView>
                                                             </subviews>
                                                         </clipView>

@@ -25,7 +25,8 @@
                                                                  NSAllDomainsMask,
                                                                  true);
     NSString* docPath = sp.count > 0 ? sp[0] : @"";
-    self.textView.string = [NSString stringWithFormat:@"%@\n%@", docPath, docPath];
+    self.viewString = [NSString stringWithFormat:@"%@\n%@", docPath, docPath];
+    //    self.textView.string = [NSString stringWithFormat:@"%@\n%@", docPath, docPath];
 }
 
 @end
