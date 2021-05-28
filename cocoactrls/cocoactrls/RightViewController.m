@@ -48,6 +48,16 @@
     t2.lock = lock;
     [t1 start];
     [t2 start];
+    int count = 0;
+    while (TRUE) {
+        if (++count > 100) {
+            break;
+        }
+        [lock lock];
+        [_common_string appendString:@"0\n"];
+        [lock unlock];
+        [NSThread sleepForTimeInterval:0.10];
+    }
     [NSThread sleepForTimeInterval:10];
     self.viewString = _common_string;
 }
