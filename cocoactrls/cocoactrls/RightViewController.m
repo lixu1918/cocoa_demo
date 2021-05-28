@@ -7,8 +7,12 @@
 //
 
 #import "RightViewController.h"
+#import "AppendStringThread.h"
 
 @interface RightViewController ()
+{
+    NSMutableString* _common_string;
+}
 
 @end
 
@@ -27,6 +31,25 @@
     NSString* docPath = sp.count > 0 ? sp[0] : @"";
     self.viewString = [NSString stringWithFormat:@"%@\n%@", docPath, docPath];
     //    self.textView.string = [NSString stringWithFormat:@"%@\n%@", docPath, docPath];
+}
+
+- (IBAction)onButtonThread:(id)sender
+{
+    _common_string = [[NSMutableString alloc] init];
+    NSLock* lock = [[NSLock alloc] init];
+    [_common_string appendString:@"$\n"];
+    AppendStringThread* t1 = [[AppendStringThread alloc] init];
+    t1.str = _common_string;
+    t1.appendix = @"4";
+    t1.lock = lock;
+    AppendStringThread* t2 = [[AppendStringThread alloc] init];
+    t2.str = _common_string;
+    t2.appendix = @"8";
+    t2.lock = lock;
+    [t1 start];
+    [t2 start];
+    [NSThread sleepForTimeInterval:10];
+    self.viewString = _common_string;
 }
 
 @end

@@ -687,8 +687,8 @@
             <rect key="contentRect" x="335" y="390" width="480" height="360"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <value key="minSize" type="size" width="480" height="360"/>
-            <view key="contentView" misplaced="YES" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="497" height="360"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <splitView arrangesAllSubviews="NO" dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TSq-wK-taX">
@@ -1036,12 +1036,15 @@
                                                         <rect key="frame" x="122" y="0.0" width="113" height="43"/>
                                                         <subviews>
                                                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j5T-3E-XqG">
-                                                                <rect key="frame" x="16" y="4" width="81" height="32"/>
+                                                                <rect key="frame" x="15" y="4" width="83" height="32"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                                                <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RO2-Lg-4jg">
+                                                                <buttonCell key="cell" type="push" title="Thread" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RO2-Lg-4jg">
                                                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                     <font key="font" metaFont="system"/>
                                                                 </buttonCell>
+                                                                <connections>
+                                                                    <action selector="onButtonThread:" target="ojY-2f-Oc1" id="1yj-Rh-q7y"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>

@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak) IBOutlet NSTextView* textView;
 
 - (IBAction)onButtonDocumentPath:(id)sender;
+- (IBAction)onButtonThread:(id)sender;
 
 @end
 

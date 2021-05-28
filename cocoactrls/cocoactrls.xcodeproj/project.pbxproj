@@ -12,6 +12,7 @@
 		18104740264D1D58001754CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1810473E264D1D58001754CA /* MainMenu.xib */; };
 		18104743264D1D58001754CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18104742264D1D58001754CA /* main.m */; };
 		185A72FC264E477C00BF37EE /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A72FB264E477C00BF37EE /* LeftViewController.m */; };
+		18899C592660C93800C48649 /* AppendStringThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 18899C582660C93800C48649 /* AppendStringThread.m */; };
 		189B6AC1264F643F00E7EB6F /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B6AC0264F643F00E7EB6F /* RightViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 		18104744264D1D58001754CA /* cocoactrls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cocoactrls.entitlements; sourceTree = "<group>"; };
 		185A72FA264E477C00BF37EE /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		185A72FB264E477C00BF37EE /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		18899C572660C93800C48649 /* AppendStringThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppendStringThread.h; sourceTree = "<group>"; };
+		18899C582660C93800C48649 /* AppendStringThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppendStringThread.m; sourceTree = "<group>"; };
 		189B6ABF264F643F00E7EB6F /* RightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
 		189B6AC0264F643F00E7EB6F /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,8 +72,10 @@
 				18104744264D1D58001754CA /* cocoactrls.entitlements */,
 				185A72FA264E477C00BF37EE /* LeftViewController.h */,
 				185A72FB264E477C00BF37EE /* LeftViewController.m */,
-				189B6AC0264F643F00E7EB6F /* RightViewController.m */,
 				189B6ABF264F643F00E7EB6F /* RightViewController.h */,
+				189B6AC0264F643F00E7EB6F /* RightViewController.m */,
+				18899C572660C93800C48649 /* AppendStringThread.h */,
+				18899C582660C93800C48649 /* AppendStringThread.m */,
 			);
 			path = cocoactrls;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			files = (
 				18104743264D1D58001754CA /* main.m in Sources */,
 				189B6AC1264F643F00E7EB6F /* RightViewController.m in Sources */,
+				18899C592660C93800C48649 /* AppendStringThread.m in Sources */,
 				185A72FC264E477C00BF37EE /* LeftViewController.m in Sources */,
 				1810473B264D1D56001754CA /* AppDelegate.m in Sources */,
 			);
