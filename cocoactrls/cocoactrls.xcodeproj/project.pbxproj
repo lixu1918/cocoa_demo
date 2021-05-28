@@ -44,8 +44,6 @@
 		1810472D264D1D56001754CA = {
 			isa = PBXGroup;
 			children = (
-				189B6ABF264F643F00E7EB6F /* RightViewController.h */,
-				189B6AC0264F643F00E7EB6F /* RightViewController.m */,
 				18104738264D1D56001754CA /* cocoactrls */,
 				18104737264D1D56001754CA /* Products */,
 			);
@@ -71,6 +69,8 @@
 				18104744264D1D58001754CA /* cocoactrls.entitlements */,
 				185A72FA264E477C00BF37EE /* LeftViewController.h */,
 				185A72FB264E477C00BF37EE /* LeftViewController.m */,
+				189B6AC0264F643F00E7EB6F /* RightViewController.m */,
+				189B6ABF264F643F00E7EB6F /* RightViewController.h */,
 			);
 			path = cocoactrls;
 			sourceTree = "<group>";
