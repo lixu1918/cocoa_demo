@@ -8,11 +8,15 @@
 
 #import "RightViewController.h"
 #import "AppendStringThread.h"
+#import "PrintStringThread.h"
 
 @interface RightViewController ()
 {
     NSMutableString* _common_string;
+    PrintStringThread* _print_thread;
 }
+
+//@property (readwrite, weak)PrintStringThread* print_thread;
 
 @end
 
@@ -60,6 +64,22 @@
     }
     [NSThread sleepForTimeInterval:10];
     self.viewString = _common_string;
+}
+
+- (IBAction)onButtonPrintString:(id)sender
+{
+    if (_print_thread)
+    {
+        _print_thread.stop_running = TRUE;
+        _print_thread = nil;
+    }
+    else
+    {
+        _print_thread = [[PrintStringThread alloc] init];
+        [_print_thread start];
+//         = thread;
+        NSLog(@"creat print string thread");
+    }
 }
 
 @end

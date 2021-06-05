@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (IBAction)onButtonDocumentPath:(id)sender;
 - (IBAction)onButtonThread:(id)sender;
+- (IBAction)onButtonPrintString:(id)sender;
 
 @end
 

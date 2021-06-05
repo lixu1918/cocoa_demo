@@ -14,6 +14,7 @@
 		185A72FC264E477C00BF37EE /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A72FB264E477C00BF37EE /* LeftViewController.m */; };
 		18899C592660C93800C48649 /* AppendStringThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 18899C582660C93800C48649 /* AppendStringThread.m */; };
 		189B6AC1264F643F00E7EB6F /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B6AC0264F643F00E7EB6F /* RightViewController.m */; };
+		18E8041B2664A1920037FA26 /* PrintStringThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8041A2664A1920037FA26 /* PrintStringThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		18899C582660C93800C48649 /* AppendStringThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppendStringThread.m; sourceTree = "<group>"; };
 		189B6ABF264F643F00E7EB6F /* RightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
 		189B6AC0264F643F00E7EB6F /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		18E804192664A1920037FA26 /* PrintStringThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintStringThread.h; sourceTree = "<group>"; };
+		18E8041A2664A1920037FA26 /* PrintStringThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintStringThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				189B6AC0264F643F00E7EB6F /* RightViewController.m */,
 				18899C572660C93800C48649 /* AppendStringThread.h */,
 				18899C582660C93800C48649 /* AppendStringThread.m */,
+				18E804192664A1920037FA26 /* PrintStringThread.h */,
+				18E8041A2664A1920037FA26 /* PrintStringThread.m */,
 			);
 			path = cocoactrls;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E8041B2664A1920037FA26 /* PrintStringThread.m in Sources */,
 				18104743264D1D58001754CA /* main.m in Sources */,
 				189B6AC1264F643F00E7EB6F /* RightViewController.m in Sources */,
 				18899C592660C93800C48649 /* AppendStringThread.m in Sources */,

@@ -986,10 +986,13 @@
                                                             <constraint firstAttribute="height" constant="21" id="X4J-ae-1ly"/>
                                                             <constraint firstAttribute="width" constant="69" id="xw0-8d-R2N"/>
                                                         </constraints>
-                                                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ByK-PO-2LL">
+                                                        <buttonCell key="cell" type="push" title="PrintStr" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ByK-PO-2LL">
                                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                             <font key="font" metaFont="system"/>
                                                         </buttonCell>
+                                                        <connections>
+                                                            <action selector="onButtonPrintString:" target="ojY-2f-Oc1" id="94t-gd-v5q"/>
+                                                        </connections>
                                                     </button>
                                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ANl-CA-Qzw">
                                                         <rect key="frame" x="140" y="72" width="81" height="32"/>
